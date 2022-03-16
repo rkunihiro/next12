@@ -1,0 +1,25 @@
+@import "destyle.css";
+
+$font-family: "Noto Sans CJK JP", "Hiragino Sans", "Droid Sans", sans-serif;
+$font-size: 16px;
+$line-height: 24px;
+
+* {
+    appearance: none;
+    background: none transparent;
+    border: 0 solid #000;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+    text-decoration: inherit;
+    user-select: none;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: $font-family;
+    font-size: $font-size;
+    line-height: $line-height;
+    padding: 8px;
+}
